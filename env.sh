@@ -6,8 +6,8 @@
 # ls -la
 # cat .env
 # Access GitHub Actions environment variables
-API_KEY="$env.API_KEY"
-DATABASE_URL="$env.DATABASE_URL"
+API_KEY="$API_KEY"
+DATABASE_URL="$DATABASE_URL"
 
 # Append values to .env file
 echo "API_Key: \"$API_KEY\"" >> .env
